@@ -1,0 +1,22 @@
+Project-2 
+
+[16,21,11,8,12,22]
+
+Stages according to Merge Sort process 
+
+1.Stage :[16,21,11] & [8,12,22]
+2.Stage :[16,21] [11] & [8,12] [22]
+3.Stage :[16] [21] [11] & [8] [12] [22]
+4.Stage :[16] [11,21] & [8] [12,22]
+5.Stage :[11,16,21] & [8,12,22]
+6.Stage :[8,11,12,16,21,22]
+
+Big-O Notation 
+
+We divide a number into half in every step.So ;
+2^x=n --> logn=x 
+The original array of n elements, a running time of O(n) will be required.
+O(n)*logn 
+--> Big-O: O(n*logn)
+
+
